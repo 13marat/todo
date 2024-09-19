@@ -5,8 +5,6 @@ import { Todo } from "components";
 
 function TodoList() {
   const todos = useSelector((state: RootState) => state.todos);
-  // eslint-disable-next-line no-console
-  console.log(todos, "todos");
 
   return (
     <>
